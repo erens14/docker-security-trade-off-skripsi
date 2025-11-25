@@ -1,0 +1,25 @@
+# Dockerfile.CIS
+FROM python:3.10-slim
+
+# (4.1) Buat user non-root
+RUN useradd -m appuser
+
+WORKDIR /app
+COPY . .
+
+# Install dependensi (tanpa paket tambahan)
+RUN apt-get update && apt-get install -y curl && \
+    pip install --no-cache-dir flask gunicorn && \
+    rm -rf /var/lib/apt/lists/*
+
+
+# (4.6) Tambahkan healthcheck
+HEALTHCHECK CMD curl -f http://localhost:5000/ || exit 1
+
+# Gunakan user non-root
+RUN chown -R appuser:appuser /app
+USER appuser
+
+# Jalankan aplikasi
+CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:5000", "app:app"]
+

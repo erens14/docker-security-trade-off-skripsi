@@ -1,0 +1,252 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      100
+Time taken for tests:   241.110 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1710000 bytes
+HTML transferred:       180000 bytes
+Requests per second:    41.47 [#/sec] (mean)
+Time per request:       2411.101 [ms] (mean)
+Time per request:       24.111 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.9      0      57
+Processing:    80 2400 305.9   2516    2764
+Waiting:       76 2400 305.8   2515    2764
+Total:         81 2401 305.9   2516    2765
+
+Percentage of the requests served within a certain time (ms)
+  50%   2516
+  66%   2578
+  75%   2610
+  80%   2627
+  90%   2670
+  95%   2692
+  98%   2713
+  99%   2723
+ 100%   2765 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      50
+Time taken for tests:   124.231 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      855000 bytes
+HTML transferred:       90000 bytes
+Requests per second:    40.25 [#/sec] (mean)
+Time per request:       1242.310 [ms] (mean)
+Time per request:       24.846 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.8      0      32
+Processing:    76 1235  79.2   1238    1405
+Waiting:       74 1235  79.2   1238    1405
+Total:         76 1236  79.1   1238    1405
+
+Percentage of the requests served within a certain time (ms)
+  50%   1238
+  66%   1257
+  75%   1270
+  80%   1280
+  90%   1300
+  95%   1315
+  98%   1333
+  99%   1345
+ 100%   1405 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      100
+Time taken for tests:   260.090 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1710000 bytes
+HTML transferred:       180000 bytes
+Requests per second:    38.45 [#/sec] (mean)
+Time per request:       2600.897 [ms] (mean)
+Time per request:       26.009 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.6      0      36
+Processing:    92 2587 156.7   2595    2813
+Waiting:       87 2586 156.7   2595    2813
+Total:         92 2587 156.4   2596    2815
+
+Percentage of the requests served within a certain time (ms)
+  50%   2596
+  66%   2618
+  75%   2633
+  80%   2643
+  90%   2672
+  95%   2699
+  98%   2723
+  99%   2745
+ 100%   2815 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      100
+Time taken for tests:   261.275 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1710000 bytes
+HTML transferred:       180000 bytes
+Requests per second:    38.27 [#/sec] (mean)
+Time per request:       2612.748 [ms] (mean)
+Time per request:       26.127 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.5      0      43
+Processing:    84 2598 160.7   2607    2820
+Waiting:       80 2598 160.7   2606    2820
+Total:         84 2599 160.4   2607    2820
+
+Percentage of the requests served within a certain time (ms)
+  50%   2607
+  66%   2633
+  75%   2652
+  80%   2664
+  90%   2696
+  95%   2716
+  98%   2738
+  99%   2751
+ 100%   2820 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      100
+Time taken for tests:   261.029 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1710000 bytes
+HTML transferred:       180000 bytes
+Requests per second:    38.31 [#/sec] (mean)
+Time per request:       2610.290 [ms] (mean)
+Time per request:       26.103 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.9      0      26
+Processing:    91 2596 162.4   2604    2824
+Waiting:       82 2596 162.4   2604    2824
+Total:         92 2596 161.8   2605    2825
+
+Percentage of the requests served within a certain time (ms)
+  50%   2605
+  66%   2631
+  75%   2651
+  80%   2663
+  90%   2694
+  95%   2722
+  98%   2751
+  99%   2764
+ 100%   2825 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.56.103 (be patient)
+
+
+Server Software:        gunicorn
+Server Hostname:        192.168.56.103
+Server Port:            5001
+
+Document Path:          /compute
+Document Length:        18 bytes
+
+Concurrency Level:      100
+Time taken for tests:   245.655 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1710000 bytes
+HTML transferred:       180000 bytes
+Requests per second:    40.71 [#/sec] (mean)
+Time per request:       2456.549 [ms] (mean)
+Time per request:       24.565 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.9      0      35
+Processing:    84 2442 254.8   2521    2768
+Waiting:       74 2442 254.8   2521    2768
+Total:         84 2443 254.5   2521    2769
+
+Percentage of the requests served within a certain time (ms)
+  50%   2521
+  66%   2562
+  75%   2588
+  80%   2601
+  90%   2639
+  95%   2667
+  98%   2698
+  99%   2714
+ 100%   2769 (longest request)

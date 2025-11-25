@@ -1,0 +1,72 @@
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.02s   560.86ms   1.99s    56.34%
+    Req/Sec    22.69     13.89    60.00     57.85%
+  1131 requests in 30.13s, 188.87KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1060
+Requests/sec:     37.54
+Transfer/sec:      6.27KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.01s   554.11ms   1.98s    56.76%
+    Req/Sec    21.63     14.03    50.00     57.31%
+  1133 requests in 30.06s, 189.35KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1059
+Requests/sec:     37.69
+Transfer/sec:      6.30KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.89s   264.73ms   2.00s    94.85%
+    Req/Sec    28.90     19.27    80.00     53.78%
+  1502 requests in 30.07s, 250.82KB read
+  Socket errors: connect 0, read 0, write 0, timeout 260
+Requests/sec:     49.95
+Transfer/sec:      8.34KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   988.49ms  562.33ms   1.96s    58.23%
+    Req/Sec    23.80     15.11    59.00     52.79%
+  1169 requests in 30.11s, 195.21KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1090
+Requests/sec:     38.83
+Transfer/sec:      6.48KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.45s   629.21ms   2.00s    78.17%
+    Req/Sec    22.30     14.47    60.00     60.22%
+  1185 requests in 30.06s, 197.89KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1043
+Requests/sec:     39.42
+Transfer/sec:      6.58KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.01s   561.19ms   1.98s    57.69%
+    Req/Sec    19.52     11.93    60.00     74.57%
+  1145 requests in 30.10s, 191.21KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1067
+Requests/sec:     38.05
+Transfer/sec:      6.35KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   989.46ms  558.68ms   1.95s    57.14%
+    Req/Sec    30.66     14.36    50.00     75.95%
+  1149 requests in 30.09s, 191.87KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1072
+Requests/sec:     38.19
+Transfer/sec:      6.38KB
+Running 30s test @ http://192.168.56.103:5000/compute
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.03s   580.88ms   1.99s    57.14%
+    Req/Sec    16.11     10.19    50.00     72.85%
+  1173 requests in 30.03s, 195.88KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1096
+Requests/sec:     39.06
+Transfer/sec:      6.52KB
